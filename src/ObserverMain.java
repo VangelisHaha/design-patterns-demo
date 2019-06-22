@@ -1,4 +1,4 @@
-import observer.CurrentConditions;
+import observer.*;
 
 /**
  * 观察者模式测试类
@@ -8,10 +8,12 @@ import observer.CurrentConditions;
  */
 public class ObserverMain {
     public static void main(String[] args) {
-//        CurrentConditions currentConditions = new CurrentConditions();
-//        WeatherData weatherData = new WeatherData(currentConditions);
-//        weatherData.setData(37,150,40);
+        WeatherDataSubject weatherDataSubject = new WeatherDataSubject();
         CurrentConditions currentConditions = new CurrentConditions();
-
+        weatherDataSubject.registerObserver(currentConditions);
+        weatherDataSubject.setData(37,150,40);
+        UnderConditions underConditions = new UnderConditions();
+        weatherDataSubject.registerObserver(underConditions);
+        weatherDataSubject.setData(37,150,40);
     }
 }

@@ -41,6 +41,20 @@ public class WeatherDataSubject implements Subject{
     public float getHumidity() {
         return humidity;
     }
+
+    /**
+     * 产生新的数据气象站，后续代码应该是查库或者其他方式
+     * @param temperature 温度
+     * @param pressure 湿度
+     * @param humidity 气压
+     */
+    public void setData(float temperature, float pressure, float humidity) {
+        this.temperature = temperature;
+        this.pressure = pressure;
+        this.humidity = humidity;
+        dataChange();
+    }
+
     /**
      * 注册
      *
