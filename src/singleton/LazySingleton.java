@@ -7,7 +7,7 @@ package singleton;
  * @date 2019-07-16 17:42
  */
 
-public class LazySingleton {
+public final  class LazySingleton {
     //    private byte[] data = new byte[2014];
     private static LazySingleton instance = null;
     private LazySingleton(){
