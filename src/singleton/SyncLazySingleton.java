@@ -15,7 +15,6 @@ public final class SyncLazySingleton {
     public  static  SyncLazySingleton getInstance() {
         if (instance==null) {
             instance = new SyncLazySingleton();
-            return instance;
         }
         return instance;
     }
