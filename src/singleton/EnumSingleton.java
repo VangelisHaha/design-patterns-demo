@@ -3,8 +3,8 @@ package singleton;
 /**
  * 枚举方式
  *
- * @author 王杰
- * @date 2019-07-17 11:10
+ * @author Vangelis
+ * @date 2019-07-16 11:10
  */
 
 public class EnumSingleton {

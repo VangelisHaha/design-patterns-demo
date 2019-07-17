@@ -3,7 +3,7 @@ package singleton;
 /**
  * 饿汉式单例
  *
- * @author 王杰
+ * @author Vangelis
  * @date 2019-07-16 17:25
  */
 public final class HungrySingleton {

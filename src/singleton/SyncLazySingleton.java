@@ -3,7 +3,7 @@ package singleton;
 /**
  * 懒汉式+同步方法
  *
- * @author 王杰
+ * @author Vangelis
  * @date 2019-07-16 17:42
  */
 

@@ -7,7 +7,7 @@ import java.nio.channels.SocketChannel;
 /**
  * 懒汉式+同步方法+Double-Check
  *
- * @author 王杰
+ * @author Vangelis
  * @date 2019-07-16 17:42
  */
 
